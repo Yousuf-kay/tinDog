@@ -1,0 +1,224 @@
+
+html {
+    scroll-behavior: smooth;
+}
+#title {
+   color:#fff;
+    background-color: crimson!important;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Reem Kufi', sans-serif;
+    line-height: 1.5;
+}
+
+#testimonials h2,h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+    .container-fluid {
+        padding: 0 3% 15% 15%;
+        height:80vh;
+    }
+
+
+.navbar{padding:0 0 3.5rem;}
+.nav-item{padding:0 15px;}
+.nav-link{font-size:1.2rem;}
+.download-button{margin:5% 3% 0% 0%;}
+.title-image {
+    width: 60%;
+    transform:rotate(25deg);
+    position:absolute;
+}
+.first-view {
+}
+.first-heading h1{
+    margin-top: 10%;
+    font-size: 4rem;
+    font-weight: 600;
+}
+#features {
+    padding: 7% 0 7% 0;
+    background: #f8f8f8;
+    position: relative;
+    z-index: 1;
+}
+.feture-box {
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+}
+.feture-box:hover {background-color:white;}
+.feture-box h3 {
+    font-weight: bold;
+}
+.feture-box p{color:#8f8f8f; }
+.feture-box i{
+    color:lightcoral;
+    margin-bottom:1rem;
+    transition:.2s;
+}
+    .feture-box i:hover {
+        color: #ef5656;
+    }
+
+#testimonials {
+    text-align: center;
+    background: lightcoral;
+    color: white;
+    
+}
+.testimonial-image {
+    width:10%;
+    margin:20px;
+    clip-path: circle(50% at 50% 50%);
+}
+#press{
+    background-color:lightcoral;
+    padding-bottom:2%;
+    text-align:center;
+}
+
+.press-logo{
+    width:15%; 
+    margin:20px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+em{border-bottom:2px solid #fff;}
+
+.btn-price{
+    background-color:lightcoral;
+    border:none;
+}
+#pricing {
+    padding: 8% 2%;
+}
+.dog_border{
+    background:lightcoral;
+    color:white;
+    padding:0px 15px;
+}
+.price-heading {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.btn-price:hover {
+    background-color: #ef5656;
+}
+.every-box {
+    transition: .3s;
+    border: none;
+    box-shadow: 0px 0px 14px 0px #00000026;
+}
+    .every-box:hover {
+        background-color: #fff1f1b0;
+        transform: translateY(-10px);
+    }
+
+.card_head{
+    transition:.3s;
+}
+.every-box:hover .card_head{
+    transform:scale(1.05);
+}
+
+#cta{
+    background-color:lightcoral;
+    text-align:center;
+}
+#cta h3{
+    font-size:4rem;
+    font-weight:bold;
+    color:white;
+    padding:10% 15% 1% 15%;
+}
+ul{
+    display:flex;
+}
+
+#footer{
+    padding: 10%;
+    text-align: center;
+}
+.last-btn {
+    margin: 0;
+    margin:0 1% 10% 1%;
+}
+
+.last-icon{
+    color:black;
+    padding:2%;
+}
+
+
+@media (max-width:768px) {
+    .title-image {
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+    }
+
+    .first-heading h1 {
+        margin-top: 10%;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #title{text-align:center;}
+
+    #testimonials h2, h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .download-button {
+        margin:5%;
+        font-size:.7rem;
+    }
+    .first-view{
+        padding-right:3%;
+    }
+    .feture-box:nth-child(even) {
+        border-top: 2px dotted #ddd;
+        border-bottom: 2px dotted #ddd;
+    }
+    .container-fluid {
+        padding: 0 15% 15% 15%;
+        height: 80vh;
+    }
+
+    .every-box {
+    transition: .3s;
+    border: none;
+    box-shadow: 0px 0px 14px 0px #00000026;
+}
+
+    #cta h3 {
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: white;
+        padding: 10% 15% 1% 15%;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
