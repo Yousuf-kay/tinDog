@@ -3,8 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 #title {
-   color:#fff;
-    background-color: crimson!important;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: crimson !important;
 }
 .navbar-brand {
     font-size: 2rem;
@@ -13,8 +16,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Reem Kufi', sans-serif;
     line-height: 1.5;
 }
+.sticky-bar {
+    position: relative;
+    z-index: 10;
+}
 
-#testimonials h2,h2 {
+#testimonials h2, h2 {
     font-size: 3rem;
     font-weight: 600;
 }
@@ -98,6 +105,7 @@ em{border-bottom:2px solid #fff;}
 }
 #pricing {
     padding: 8% 2%;
+    background:white;
 }
 .dog_border{
     background:lightcoral;
@@ -139,13 +147,12 @@ em{border-bottom:2px solid #fff;}
     color:white;
     padding:10% 15% 1% 15%;
 }
-ul{
-    display:flex;
-}
+
 
 #footer{
     padding: 10%;
     text-align: center;
+    background:white;
 }
 .last-btn {
     margin: 0;
@@ -209,16 +216,4 @@ ul{
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
